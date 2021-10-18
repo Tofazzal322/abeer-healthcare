@@ -1,0 +1,53 @@
+[
+    {
+    "id":8000,
+    "categories": "services",
+    "title": "EMERGENCY MEDICINE",
+    "description":"Our ER department is fully equipped to deal with any contingencies and is supported by ambulance service, dedicated entrance, triage beds and all allied departments ready to support.",
+    "icon":"https://www.abeergroup.om/images/services/icon/EmergencyMedicine_icon75.png",
+    "services-img":"https://www.abeergroup.om/images/services/description/EmergencyMedicine_75.jpg"
+},
+    {
+    "id":8001,
+    "categories": "services",
+    "title": "OBSTETRICS & GYNECOLOGY",
+    "description":"Women’s Health Providers at Abeer aims at providing state-of-the-art diagnostic evaluation, critical care and education for all women’s health needs. The department is equipped with Doppler Ultrasound, Stereoscopes, Colonoscopies, Laparoscopes and patient monitors",
+    "icon":"https://www.abeergroup.om/images/services/icon/ObstetricsGynaecology_icon76.jpg",
+    "services-img":"https://www.abeergroup.om/images/services/description/ObstetricsGynaecology_76.jpg"
+},
+    {
+    "id":8002,
+    "categories": "services",
+    "title": "ORTHOPAEDICS & SPORTS MEDICINE",
+    "description":"We believe in giving maximum surgical care and offer a full range of arthroscopic surgeries of the hip, shoulder, knee and elbow. We provide customized treatment programs to guide patients on the safest path to rehabilitation, pain management and recovery.",
+    "icon":"https://www.abeergroup.om/images/services/icon/OrthopaedicsSportsMedicine_icon77.png",
+    "services-img":"https://www.abeergroup.om/images/services/description/OrthopaedicsSportsMedicine_77.jpg"
+},
+    {
+    "id":8003,
+    "categories": "services",
+    "title": "GENERAL & LAPAROSCOPIC SURGERY",
+    "description":"The department has skilled consultants capable of performing advanced laparoscopic surgeries, working closely with other concerned specialists to provide timely surgical intervention for complex conditions",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "services-img":"https://www.abeergroup.om/images/services/description/GeneralLaparoscopicSurgery_78.jpg"
+
+},
+    {
+    "id":8004,
+    "categories": "services",
+    "title": "RADIOLOGY & IMAGING",
+    "description":"The Radiology & Imaging division here constitutes a team of experts who are committed to provide high quality radio- diagnosis to the patients and referring physicians",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "services-img":"https://www.abeergroup.om/images/services/Description/RadiologyImaging_84.jpg"
+
+},
+    {
+    "id":8005,
+    "categories": "services",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "services-img":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+}
+]
