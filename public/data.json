@@ -1,53 +1,158 @@
 [
     {
-    "id":8000,
+    "id":88008,
     "categories": "services",
     "title": "EMERGENCY MEDICINE",
     "description":"Our ER department is fully equipped to deal with any contingencies and is supported by ambulance service, dedicated entrance, triage beds and all allied departments ready to support.",
     "icon":"https://www.abeergroup.om/images/services/icon/EmergencyMedicine_icon75.png",
-    "services-img":"https://www.abeergroup.om/images/services/description/EmergencyMedicine_75.jpg"
+    "servicesImg":"https://www.abeergroup.om/images/services/description/EmergencyMedicine_75.jpg"
 },
     {
-    "id":8001,
+    "id":83001,
     "categories": "services",
     "title": "OBSTETRICS & GYNECOLOGY",
     "description":"Women’s Health Providers at Abeer aims at providing state-of-the-art diagnostic evaluation, critical care and education for all women’s health needs. The department is equipped with Doppler Ultrasound, Stereoscopes, Colonoscopies, Laparoscopes and patient monitors",
     "icon":"https://www.abeergroup.om/images/services/icon/ObstetricsGynaecology_icon76.jpg",
-    "services-img":"https://www.abeergroup.om/images/services/description/ObstetricsGynaecology_76.jpg"
+    "servicesImg":"https://www.abeergroup.om/images/services/description/ObstetricsGynaecology_76.jpg"
 },
     {
-    "id":8002,
+    "id":86002,
     "categories": "services",
     "title": "ORTHOPAEDICS & SPORTS MEDICINE",
     "description":"We believe in giving maximum surgical care and offer a full range of arthroscopic surgeries of the hip, shoulder, knee and elbow. We provide customized treatment programs to guide patients on the safest path to rehabilitation, pain management and recovery.",
     "icon":"https://www.abeergroup.om/images/services/icon/OrthopaedicsSportsMedicine_icon77.png",
-    "services-img":"https://www.abeergroup.om/images/services/description/OrthopaedicsSportsMedicine_77.jpg"
+    "servicesImg":"https://www.abeergroup.om/images/services/description/OrthopaedicsSportsMedicine_77.jpg"
 },
     {
-    "id":8003,
+    "id":89003,
     "categories": "services",
-    "title": "GENERAL & LAPAROSCOPIC SURGERY",
+    "title": "GENERAL & LAPAROSCOPIC",
     "description":"The department has skilled consultants capable of performing advanced laparoscopic surgeries, working closely with other concerned specialists to provide timely surgical intervention for complex conditions",
     "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
-     "services-img":"https://www.abeergroup.om/images/services/description/GeneralLaparoscopicSurgery_78.jpg"
+     "servicesImg":"https://www.abeergroup.om/images/services/description/GeneralLaparoscopicSurgery_78.jpg"
 
 },
     {
-    "id":8004,
+    "id":87004,
     "categories": "services",
     "title": "RADIOLOGY & IMAGING",
     "description":"The Radiology & Imaging division here constitutes a team of experts who are committed to provide high quality radio- diagnosis to the patients and referring physicians",
     "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
-     "services-img":"https://www.abeergroup.om/images/services/Description/RadiologyImaging_84.jpg"
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/RadiologyImaging_84.jpg"
 
 },
     {
-    "id":8005,
+    "id":85005,
     "categories": "services",
     "title": "PEDIATRICS & NEONATOLOGY",
     "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
     "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
-     "services-img":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":76005,
+    "name":"Dr.Afreen Jawed Rab",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR672.jpg",
+    "qualification":"MBBS",
+    "doctorsTitle":"General Practitioner",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":75005,
+    "name":"Dr.Marwan Goergi ",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR341.jpg?1544076760574",
+    "qualification":"MD (MEDICAL RADIOLOGY)",
+    "doctorsTitle":"Specialist - Radiology",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":75076,
+    "name":"Dr.Nesline Raffiq",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR667.jpg",
+    "qualification":"BDS",
+    "doctorsTitle":"Dentist",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":14005,
+    "name":"Dr.Vaishnav Ravidranath",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR671.jpg",
+    "qualification":"MBBS",
+    "doctorsTitle":"General Practitioner",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":10705,
+    "name":"Dr.Hoda Majd",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR678.jpg",
+    "qualification":"MD Anesthesiology",
+    "doctorsTitle":"Specialist Anesthesia",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":97010,
+    "name":"Dr.Rahul Gopi Nair",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR665.jpg",
+    "qualification":"MBBS, MS ENT",
+    "doctorsTitle":"Specialist - ENT",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":97050,
+    "name":"Dr.Menaka Balakrishnan",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR673.jpg",
+    "qualification":"MBBS, MS, DNB",
+    "doctorsTitle":"Specialist - OBG",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
+    {
+    "id":97070,
+    "name":"Dr.Kalyani Mohan",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR442.jpg",
+    "qualification":"MBBS, DNB(Pediatrics)",
+    "doctorsTitle":"Specialist - Pediatrics",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
 
 }
+
 ]

@@ -13,24 +13,28 @@ const MenuBar = () => {
       <Navbar collapseOnSelect expand="lg" className="menu-bg"  variant="dark" sticky="top">
         <Container>
           <Navbar.Brand>
-            <Link className="nav-brand" to="/home">Abeer Healthcare</Link>
+            <Link className="nav-brand text-light" to="/home">Abeer Healthcare</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav.Link>
-              <HashLink className="nav-items" to="/home#banner">Home</HashLink>
+              <HashLink className="nav-items text-light" to="/home#banner">Home</HashLink>
             </Nav.Link>
             <Nav.Link>
-              <HashLink className="nav-items" to="/home#services">Services</HashLink>
+              <HashLink className="nav-items text-light" to="/Services">Services</HashLink>
             </Nav.Link>
             <Nav.Link>
               {/* <HashLink className="nav-items" to="/home#doctors"> Doctors </HashLink> */}
-              <HashLink className="nav-items" to="/doctors"> Doctors </HashLink>
+              <HashLink className="nav-items text-light" to="/doctors"> Doctors </HashLink>
+            </Nav.Link>
+            <Nav.Link>
+              {/* <HashLink className="nav-items" to="/home#doctors"> Doctors </HashLink> */}
+              <HashLink className="nav-items text-light "  to="/signUp"> Sign up </HashLink>
             </Nav.Link>
             
             <Nav.Link>
-              {user?.email ? <Button onClick={logOut} variant="outline-light">Logout</Button> :
-              <Button variant="outline-light"> <Link className="nav-items" to="/login">Login</Link></Button>}
+              {user?.email ? <Button onClick={logOut} variant="outline-primary">Logout</Button> :
+              <Button variant="btn btn-primary"> <Link className="nav-items-btn" to="/login">Login</Link></Button>}
             </Nav.Link>
             <Navbar.Text>
               {/* Signed in as: <a href="#login"> {user?.displayName} </a> */}

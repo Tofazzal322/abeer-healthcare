@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Footer.css'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
             PB No: 719, PC114, Opp. OK Centre, Ruwi, Muscat, Sultanate of Oman
           </p>
 
-          <p className="text-light"> <FontAwesomeIcon icon="coffee" size="xs"  />+968 2477 0800</p>
+          <p className="text-light"> +968 2477 0800</p>
           <p className="text-light">info@abeergroup.om</p>
         </div>
       </Col>
