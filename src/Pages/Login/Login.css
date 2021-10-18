@@ -1,0 +1,33 @@
+.login-header{
+    color:#006576 ;
+    font-weight: 700;
+}
+
+.login-from{
+    color: #006576;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.login-btn{
+    width: 100%;
+    border: none;
+    background-color:#006576 ;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.google-btn{
+    /* border: none; */
+    /* background-color: crimson; */
+}
+
+.forget-pass{
+    /* text-align: auto; */
+    /* background-color: crimson; */
+    justify-content: right;
+    /* margin-block-end: 0; */
+    margin-left: 250px;
+}
