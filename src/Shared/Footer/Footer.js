@@ -12,7 +12,7 @@ const Footer = () => {
          
         <Col xs={12} md={4}>
         <div>
-          <h5 className="text-light">CONTACT DETAILS</h5>
+          <h4 className="text-light fw-bold mb-3">CONTACT DETAILS</h4>
           <p className="text-light">
             PB No: 719, PC114, Opp. OK Centre, Ruwi, Muscat, Sultanate of Oman
           </p>
@@ -22,24 +22,24 @@ const Footer = () => {
         </div>
       </Col>
         <Col  xs={12} md={2}>
-              <h5 className="text-light ">QUICK LINKS</h5>
+              <h4 className="text-light fw-bold mb-3">QUICK LINKS</h4>
               <p ><Link className=" text-light footer-link" to="/home"> Home</Link></p>
               <p><Link className="text-light footer-link" to="/home">About Us</Link></p>
               <p ><Link className="footer-link text-light" to="/home"> Abeer Oman</Link></p>
               <span ><Link className=" footer-link text-light" to="/home"> President's Message</Link></span>
       </Col>
-        <Col className="mt-4" xs={12} md={2}>  
+        <Col className="mt-5" xs={12} md={2}>  
               <p><Link className="text-light footer-link" to="/home"> Mission & Vision</Link></p>
               <p><Link className="text-light footer-link" to="/home">Departments</Link></p>
               <p><Link className="text-light footer-link" to="/home"> Facilities</Link></p>
         </Col>
-              <Col className="mt-4" xs={12} md={2}>       
+              <Col className="mt-5" xs={12} md={2}>       
               <p><Link className="text-light footer-link" to="/home"> Insurance Partners</Link></p>
               <p><Link className="text-light footer-link" to="/home">Doctors</Link></p>
               <p><Link className="text-light footer-link" to="/home"> Packages</Link></p>
               <span><Link className="text-light footer-link" to="/home"> News</Link></span>
         </Col>
-              <Col className="mt-4" xs={12} md={2}>
+              <Col className="mt-5" xs={12} md={2}>
             <p><Link className="text-light footer-link" to="/home">Health Blog</Link></p>
             <p><Link className="text-light footer-link" to="/home">Career</Link></p>
             <p><Link className="text-light footer-link" to="/home"> Contact</Link></p>
