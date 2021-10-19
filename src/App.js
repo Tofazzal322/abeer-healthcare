@@ -17,6 +17,7 @@ import Contact from './Pages/Contact/Contact';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact></Contact>
+            </Route>
+            <Route exact path="/serviceDetails/:serviceId">
+              <ServiceDetails></ServiceDetails>
             </Route>
             <Route exact path="/login">
               <Login></Login>

@@ -3,14 +3,14 @@ import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
 import { Col, Form, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
+// import useAuth from "../../hooks/useAuth";
 import loginImg from "../../Images/Login/doctor-indicate.png";
 // import useAuth from '../../hooks/useAuth';
 
 const auth = getAuth();
 
 const SignUp = () => {
-  const { signInWithGoogle, user } = useAuth();
+  // const { signInWithGoogle, user } = useAuth();
   // const { signUpWithPassword } = useAuth()
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
@@ -41,7 +41,10 @@ const SignUp = () => {
       const user = result.user;
       console.log(user);
       // event.target.value = "";
-    });
+    })
+      .catch(error => {
+      
+    })
   };
 
   //////////////////////////////////////////////////
