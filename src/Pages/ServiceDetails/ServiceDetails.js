@@ -18,11 +18,6 @@ const ServiceDetails = () => {
       .then((data) => setData(data));
   }, []);
 
-  // useEffect(() => {
-  //     fetch('/data.json')
-  //         .then(res => res.json())
-  //         .then(data => setData(data))
-  // }, []);
 
   return (
     <div>
@@ -49,7 +44,7 @@ const ServiceDetails = () => {
                 <p>{newItem.description}</p>
               </div>
               <div>
-                <Link to={`/appointment/${"item.id"}`}>
+                <Link to={`/appointment/${newItem.id}`}>
                   <Button className="bookAppointmentBtn mt-3" variant="primary">
                     Book Appointment
                   </Button>
