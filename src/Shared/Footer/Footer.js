@@ -42,7 +42,7 @@ const Footer = () => {
               <Col className="mt-5" xs={12} md={2}>
             <p><Link className="text-light footer-link" to="/home">Health Blog</Link></p>
             <p><Link className="text-light footer-link" to="/home">Career</Link></p>
-            <p><Link className="text-light footer-link" to="/home"> Contact</Link></p>
+            <p><Link className="text-light footer-link" to="/contact"> Contact</Link></p>
             <span><Link className="text-light footer-link" to="/home"> Sitemap</Link></span>
         </Col>
      

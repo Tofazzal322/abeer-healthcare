@@ -9,7 +9,7 @@ import "./ServiceDetails.css";
 const ServiceDetails = () => {
   const [data, setData] = useState([]);
   // const [data] = useData([]);
-  console.log(data);
+//   console.log(data);
   const { serviceId } = useParams();
 
   useEffect(() => {

@@ -3,8 +3,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   faAmericanSignLanguageInterpreting,
-  faCoffee,
-  faLeaf,
 } from "@fortawesome/free-solid-svg-icons";
 import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 import { faHandshake } from "@fortawesome/free-regular-svg-icons";

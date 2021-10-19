@@ -13,7 +13,7 @@ const Appointment = () => {
   const [data, setData] = useState([]);
   const { bookId } = useParams();
 
-  console.log(data);
+  // console.log(data);
 
   useEffect(() => {
     fetch("/data.json")
