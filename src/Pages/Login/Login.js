@@ -47,8 +47,9 @@ const Login = () => {
           <Button
             className="login-btn  btn-outline-warning text-light mb-4 mt-2"
             variant="primary"
-            type="submit"
             onClick={signInWithPassword}
+            type="submit"
+            
           >
             Login
           </Button>
