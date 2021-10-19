@@ -28,7 +28,7 @@ const Doctors = () => {
                   <Link to={`/services/${doctor.id}`}>
                     <Button className="bookAppointmentBtn" variant="primary">View Full Profile</Button>
                   </Link>
-                  <Link to={`/services/${doctor.id}`}>
+                  <Link to={`/Appointment/${doctor.id}`}>
                     <Button className="bookAppointmentBtn mt-3" variant="primary">Book Appointment</Button>
                   </Link>
                 </Card.Body>

@@ -1,0 +1,14 @@
+.about-col{
+text-align: left;
+margin-top: 100px;
+}
+
+.about-title{
+    color: #006576;
+    font-weight: 600;
+}
+
+.about-paragraph{
+    color: #006576;
+    font-weight: 400;
+}

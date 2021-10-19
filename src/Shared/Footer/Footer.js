@@ -24,12 +24,12 @@ const Footer = () => {
         <Col  xs={12} md={2}>
               <h4 className="text-light fw-bold mb-3">QUICK LINKS</h4>
               <p ><Link className=" text-light footer-link" to="/home"> Home</Link></p>
-              <p><Link className="text-light footer-link" to="/home">About Us</Link></p>
+              <p><Link className="text-light footer-link" to="/about">About Us</Link></p>
               <p ><Link className="footer-link text-light" to="/home"> Abeer Oman</Link></p>
               <span ><Link className=" footer-link text-light" to="/home"> President's Message</Link></span>
       </Col>
         <Col className="mt-5" xs={12} md={2}>  
-              <p><Link className="text-light footer-link" to="/home"> Mission & Vision</Link></p>
+              <p><Link className="text-light footer-link" to="/mission"> Mission & Vision</Link></p>
               <p><Link className="text-light footer-link" to="/home">Departments</Link></p>
               <p><Link className="text-light footer-link" to="/home"> Facilities</Link></p>
         </Col>
