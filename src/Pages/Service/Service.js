@@ -29,8 +29,8 @@ const Service = () => {
                 <Link to="/services">
                   <Button
                     cursor="pointer"
-                    className="bookAppointmentBtn"
-                    variant="outline-primary"
+                    className=" readMore-btn  "
+                    // variant="outline-dark"
                   >
                     Read More
                   </Button>

@@ -2,3 +2,18 @@
     color: #006576;
    font-family: 'Roboto', sans-serif;
 }
+
+.readMore-btn{
+    width: 100%;
+    border: none;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.readMore-btn:hover{
+    color: #ffffff;
+    background-color:#006576 ;
+    font-weight: 700;
+}
