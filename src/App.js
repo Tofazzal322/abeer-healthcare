@@ -14,11 +14,10 @@ import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Appointment from './Pages/Appointment/Appointmnet';
 import NotFound from './Pages/NotFound/NotFound';
 import Contact from './Pages/Contact/Contact';
-// import ReactDOM from 'react-dom'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-// library.add(fab, faCheckSquare, faCoffee)
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
   return (

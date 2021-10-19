@@ -1,0 +1,13 @@
+.single-col{
+    border: 1px solid rgb(98, 98, 98);
+    /* margin-left: 10px; */
+    width: fit-content;
+    padding: 10px;
+    /* background-color: darkcyan; */
+}
+
+.insurance-header{
+    color: #006576;
+    font-weight: 700;
+    font-size: 2rem;
+}
