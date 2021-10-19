@@ -1,8 +1,9 @@
 .nav-brand{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 800;
     font-size:30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-items{
@@ -19,6 +20,7 @@
 .nav-items-btn{
     /* background-color: burlywood; */
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    padding: 0%;
     
 }

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
@@ -12,4 +13,6 @@ code {
     monospace;
 }
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 

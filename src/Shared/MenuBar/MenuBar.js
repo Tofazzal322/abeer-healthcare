@@ -33,13 +33,13 @@ const MenuBar = () => {
             </Nav.Link>
             
             <Nav.Link>
-              {user?.email ? <Button onClick={logOut} variant="outline-primary">Logout</Button> :
-              <Button variant="btn btn-primary"> <Link className="nav-items-btn" to="/login">Login</Link></Button>}
+              {user?.email ? <Button className="nav-items-btn btn btn-dark " onClick={logOut} variant="button">Logout</Button> :
+              <Button className=" btn btn-dark"  variant="button "> <Link className="nav-items-btn text-light" to="/login">Login</Link></Button>}
             </Nav.Link>
             <Navbar.Text>
               {/* Signed in as: <a href="#login"> {user?.displayName} </a> */}
               Signed in as :
-               <Link className="ps-2" to="/login">{user?.displayName}</Link>
+               <Link className="ps-2" to="/home">{user?.displayName}</Link>
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>
