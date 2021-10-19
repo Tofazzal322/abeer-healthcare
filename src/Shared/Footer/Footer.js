@@ -7,7 +7,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-      <div className=" footer-main p-5">
+      <div className=" footer-main p-5 fixed">
           <Row >
          
         <Col xs={12} md={4}>

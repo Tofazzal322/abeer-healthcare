@@ -9,7 +9,7 @@ import Service from '../Service/Service';
 const Home = () => {
 
     const { data } = useData()
-    console.log(data.length);
+    // console.log(data.length);
     return (
         <div>
             

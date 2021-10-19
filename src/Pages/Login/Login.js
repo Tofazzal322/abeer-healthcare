@@ -1,19 +1,24 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Col, Form, Row } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-import useData from "../../hooks/useData";
 import loginImg from "../../Images/Login/doctor-indicate.png";
 import "./Login.css";
 
 const Login = () => {
-  // const { user } = useAuth();
-  const { data } = useData();
-  const { signInWithGoogle,user} = useAuth();
+  const { signInWithGoogle, signInWithPassword } = useAuth();
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_uri = location.state?.from || "/home";
+
+  const handleGoogleLogin = () => {
+    signInWithGoogle().then((result) => {
+      history.push(redirect_uri);
+    });
+  };
 
   return (
-    
     <Row>
       <Col xs={12} md={6}>
         <img src={loginImg} alt="" />
@@ -33,35 +38,33 @@ const Login = () => {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <Form.Group className="mb-3 d-flex" controlId="formBasicCheckbox">
-                      <Form.Check type="checkbox" label="Check me out" />
-                      <div className="forget-pass"> Forget password? <Link to="/signUp"> </Link> </div>
-                      
-                  </Form.Group>
-                  
-          {user?.email?<Button
-            className="login-btn  btn-outline-info text-light mb-4 mt-2"
+            <Form.Check type="checkbox" label="Check me out" />
+            <div className="forget-pass">
+              {" "}
+              Forget password? <Link to="/signUp"> </Link>{" "}
+            </div>
+          </Form.Group>
+          <Button
+            className="login-btn  btn-outline-warning text-light mb-4 mt-2"
             variant="primary"
             type="submit"
+            onClick={signInWithPassword}
           >
             Login
-          </Button>:
-          <Button
-            className="login-btn  btn-outline-info text-light mb-4 mt-2"
-            variant="primary"
-            type="submit"
-          >
-            Register
-          </Button>}
+          </Button>
           <br />
           <Button
             className="google-btn mb-4 btn fw-bold w-100 btn-outline-danger"
-            onClick={signInWithGoogle}
+            onClick={handleGoogleLogin}
             variant="primary"
             type="button"
           >
             Sign in with google
           </Button>
-          <span className="mt-5"> Not a member? <Link to="/signUp"> Sign Up</Link> </span>
+          <span className="mt-5">
+            {" "}
+            Not a member? <Link to="/signUp"> Sign Up</Link>{" "}
+          </span>
         </Form>
       </Col>
     </Row>

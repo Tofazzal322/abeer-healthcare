@@ -1,0 +1,18 @@
+.not-found-body{
+    background-image: url('https://i.stack.imgur.com/6M513.png');
+}
+
+.goHome-btn{
+    width: 25%;
+    border: none;
+    background-color:#006576 ;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.goHome-btn:hover{
+    background-color:#e28409 ;
+}

@@ -13,6 +13,7 @@ import Mission from './Pages/Mission/Mission';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Appointment from './Pages/Appointment/Appointmnet';
 import NotFound from './Pages/NotFound/NotFound';
+import Contact from './Pages/Contact/Contact';
 // import ReactDOM from 'react-dom'
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -46,6 +47,9 @@ function App() {
             </Route>
             <Route exact path="/mission">
               <Mission></Mission>
+            </Route>
+            <Route exact path="/contact">
+              <Contact></Contact>
             </Route>
             <Route exact path="/login">
               <Login></Login>

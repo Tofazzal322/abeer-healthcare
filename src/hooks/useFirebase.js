@@ -19,11 +19,8 @@ const useFirebase = () => {
     const signInWithGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-        .then((result) => {
-            setUser(result.user);
-        })
-        .finally(()=> setIsLoading(false));
+       return signInWithPopup(auth, googleProvider)
+        
     }
 
     /////////////////////////////////
@@ -51,12 +48,12 @@ const useFirebase = () => {
     
 
 
-    // const signInWithPassword = (email,password) => {
-    //     signInWithEmailAndPassword(auth, email, password)
-    //         .then(result => {
-    //         setPassword(result.user)
-    //     })
-    // }
+    const signInWithPassword = (email,password) => {
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+            // setPassword(result.user)
+        })
+    }
 
     ///////////////////////////////////////
 
@@ -73,7 +70,7 @@ const useFirebase = () => {
         setUser,
         logOut,
         isLoading,
-        // signInWithPassword,
+        signInWithPassword
         // signUpWithPassword
 
 

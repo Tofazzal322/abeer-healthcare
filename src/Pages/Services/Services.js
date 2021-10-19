@@ -1,18 +1,17 @@
-import Button from "@restart/ui/esm/Button";
+// import Button from "@restart/ui/esm/Button";
 import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import {  Row } from "react-bootstrap";
+// import { Link } from "react-router-dom";
 import useData from "../../hooks/useData";
 import Doctors from "../Doctors/Doctors";
 import './Service.css'
 
 const Services = () => {
   const { data } = useData();
-  console.log(data.length);
   return (
-    <div className="container mb-5">
-      {/* <h3>Services: {data.length} </h3>
-      <p>We offer multi-specialists healthcare services under one roof</p> */}
+    <div className="container mt-2 mb-5">
+      <div className="bookAppointmentBtn pb-4"><h1 >Our Services </h1>
+      <h3>We offer multi-specialists healthcare services under one roof</h3></div>
       <Row className="mt-5 mb-5 ">
         {data?.filter(item=>"services"===item.categories).map((item) => (
                 <div className="d-flex mt-5">
