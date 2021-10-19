@@ -38,7 +38,7 @@ const MenuBar = () => {
             </Nav.Link>
             <Navbar.Text>
               {/* Signed in as: <a href="#login"> {user?.displayName} </a> */}
-              Signed in as :
+              Welcome Mr .
                <Link className="ps-2" to="/home">{user?.displayName}</Link>
             </Navbar.Text>
           </Navbar.Collapse>
