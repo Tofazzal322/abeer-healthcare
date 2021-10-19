@@ -63,6 +63,19 @@
      "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
 
 },
+{
+    "id":97070,
+    "name":"Dr.Kalyani Mohan",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR442.jpg",
+    "qualification":"MBBS, DNB(Pediatrics)",
+    "doctorsTitle":"Specialist - Pediatrics",
+    "categories": "doctors",
+    "title": "PEDIATRICS & NEONATOLOGY",
+    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
+    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
+     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
+
+},
     {
     "id":75005,
     "name":"Dr.Marwan Goergi ",
@@ -89,19 +102,7 @@
      "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
 
 },
-    {
-    "id":14005,
-    "name":"Dr.Vaishnav Ravidranath",
-    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR671.jpg",
-    "qualification":"MBBS",
-    "doctorsTitle":"General Practitioner",
-    "categories": "doctors",
-    "title": "PEDIATRICS & NEONATOLOGY",
-    "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
-    "icon":"https://www.abeergroup.om/images/services/icon/GeneralLaparoscopicSurgery_icon78.png",
-     "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
-
-},
+    
     {
     "id":10705,
     "name":"Dr.Hoda Majd",
@@ -141,12 +142,12 @@
      "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
 
 },
-    {
-    "id":97070,
-    "name":"Dr.Kalyani Mohan",
-    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR442.jpg",
-    "qualification":"MBBS, DNB(Pediatrics)",
-    "doctorsTitle":"Specialist - Pediatrics",
+{
+    "id":14005,
+    "name":"Dr.Vaishnav Ravidranath",
+    "photo":"https://www.abeergroup.om/images/Doctor/DOC_ABR671.jpg",
+    "qualification":"MBBS",
+    "doctorsTitle":"General Practitioner",
     "categories": "doctors",
     "title": "PEDIATRICS & NEONATOLOGY",
     "description":"We offer clinical care tailored to the needs of children and their families. The healing environment with the qualified and experienced team helps in providing the most effective quality care.",
@@ -154,5 +155,6 @@
      "servicesImg":"https://www.abeergroup.om/images/services/Description/PaediatricsChildHealth_79.jpg"
 
 }
+    
 
 ]
