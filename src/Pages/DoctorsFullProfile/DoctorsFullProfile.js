@@ -27,7 +27,7 @@ const DoctorsFullProfile = () => {
                         <h4 className="doctor-full-name">{doctor.name}</h4>
                         <h3 className="doctor-full-title">{doctor.doctorsTitle}</h3>
                         <h6 className="doctor-consulting">CONSULTING TIME</h6>
-                        <p>{ doctor.consultingTime}</p>
+                        <p className="doctor-consulting-time">{ doctor.consultingTime}</p>
                         <Link to={`/Appointment/${doctor.id}`}>
                             <Button className="doctor-full-btn"> BOOK APPOINTMENT</Button>
                         </Link>

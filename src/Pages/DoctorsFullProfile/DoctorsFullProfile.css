@@ -24,8 +24,12 @@
 
 .doctor-consulting{
     color: #055a69;
-    margin-top: 20px;
+    margin-top: 30px;
 
+}
+.doctor-consulting-time{
+    color: #055a69;
+    margin-top: 10px;
 }
 
 .doctor-qualification-title{
