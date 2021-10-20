@@ -1,25 +1,28 @@
 import React from 'react';
 import { Col, Row } from "react-bootstrap";
 // import { Map, GoogleApiWrapper } from "google-maps-react";
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import './Contact.css'
 
-// export default GoogleApiWrapper({
-//   apiKey: 'TOKEN HERE'
-// })(MapContainer);
+const containerStyle = {
+  width: '650px',
+  height: '400px'
+};
 
-// const mapStyles = {
-//   width: "100%",
-//   height: "100%",
-// };
+const center = {
+  lat: -3.745,
+  lng: -38.523
+};
 
 const Contact = () => {
   return (
     <div>
       <h1>This is Contact section</h1>
 
-      <Row>
+      <Row className="contact-section">
         <h3>Abeer Healthcare</h3>
-        <Col>
-          <h4>Address</h4>
+        <Col className="mt-3">
+          <h4 className="text-left mb-3">Address</h4>
           <p>
             PO Box 719, PC114, Opp. OK Centre, Ruwi, Muscat, Sultanate of Oman
           </p>
@@ -28,13 +31,20 @@ const Contact = () => {
           <h4>Email</h4>
           <p>info@abeergroup.om</p>
         </Col>
-        <Col>
-          {/* <Map
-            google={this.props.google}
-            zoom={8}
-            style={mapStyles}
-            initialCenter={{ lat: 47.444, lng: -122.176 }}
-          /> */}
+              <Col className="mb-5">
+                  <h2>My Location</h2>
+          <LoadScript
+        googleMapsApiKey="YOUR_API_KEY"
+      >
+        <GoogleMap
+          mapContainerStyle={containerStyle}
+          center={center}
+          zoom={10}
+        >
+          { /* Child components, such as markers, info windows, etc. */ }
+          <></>
+        </GoogleMap>
+      </LoadScript>
         </Col>
       </Row>
 

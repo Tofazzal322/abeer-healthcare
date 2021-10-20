@@ -25,7 +25,7 @@ const Footer = () => {
               <h4 className="text-light fw-bold mb-3">QUICK LINKS</h4>
               <p ><Link className=" text-light footer-link" to="/home"> Home</Link></p>
               <p><Link className="text-light footer-link" to="/about">About Us</Link></p>
-              <p ><Link className="footer-link text-light" to="/home"> Abeer Oman</Link></p>
+              <p><Link className="text-light footer-link" to="/contact"> Contact</Link></p>
               <span ><Link className=" footer-link text-light" to="/home"> President's Message</Link></span>
       </Col>
         <Col className="mt-5" xs={12} md={2}>  
@@ -41,8 +41,9 @@ const Footer = () => {
         </Col>
               <Col className="mt-5" xs={12} md={2}>
             <p><Link className="text-light footer-link" to="/home">Health Blog</Link></p>
-            <p><Link className="text-light footer-link" to="/home">Career</Link></p>
-            <p><Link className="text-light footer-link" to="/contact"> Contact</Link></p>
+          <p><Link className="text-light footer-link" to="/home">Career</Link></p>
+          <p ><Link className="footer-link text-light" to="/home"> Abeer Oman</Link></p>
+            
             <span><Link className="text-light footer-link" to="/home"> Sitemap</Link></span>
         </Col>
      

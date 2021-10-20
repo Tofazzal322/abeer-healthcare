@@ -1,0 +1,54 @@
+.doctor-full-header{
+    color: #ffffff;
+    margin-top: 50px;
+    background-color:#01798f ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.doctor-full{
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+.doctor-full-name{
+    margin-top: 50px;
+   font-size: 3rem;
+   color: #055a69;
+}
+
+.doctor-full-title{
+    color: #055a69;
+}
+
+.doctor-consulting{
+    color: #055a69;
+    margin-top: 20px;
+
+}
+
+.doctor-qualification-title{
+    margin-top: 50px;
+    color: #006576;
+    /* font-size: 1.5rem; */
+
+}
+
+.doctor-full-btn{
+    margin-top: 50px;
+    background-color:#055a69 ;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.doctor-full-qualification{
+    text-align: center;
+    width: 25%;
+     color: #006576;
+     margin-left: 50px;
+}

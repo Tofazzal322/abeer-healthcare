@@ -10,9 +10,6 @@ const NotFound = () => {
             <div className="not-found-body">
                 <Link to="/home"> <button className="goHome-btn mb-5 "> Go Home</button></Link>
                 <img src="https://i.stack.imgur.com/6M513.png" alt="" />
-                
-                
-            
             </div>
             
     </div>

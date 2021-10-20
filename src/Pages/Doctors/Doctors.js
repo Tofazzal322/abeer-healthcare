@@ -14,7 +14,7 @@ const Doctors = () => {
         {data
           .filter((doctor) => "doctors" === doctor.categories)
           .map((doctor) => (
-            <Col className="mt-5" md={4} lg={3} xs={12}>
+            <Col key={doctor.id} className="mt-5" md={4} lg={3} xs={12}>
               <Card>
                 <Card.Img
                   className="doctor-img"
@@ -25,7 +25,7 @@ const Doctors = () => {
                   <Card.Title>{doctor.name}</Card.Title>
                   <Card.Text>{doctor.doctorsTitle}</Card.Text>
                   <Card.Text>{doctor.qualification}</Card.Text>
-                  <Link to={`/services/${doctor.id}`}>
+                  <Link to={`/DoctorsFullProfile/${doctor.id}`}>
                     <Button className="bookAppointmentBtn" variant="primary">View Full Profile</Button>
                   </Link>
                   <Link to={`/Appointment/${doctor.id}`}>

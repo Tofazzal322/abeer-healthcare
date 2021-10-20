@@ -18,7 +18,7 @@ const Services = () => {
         {data
           ?.filter((item) => "services" === item.categories)
           .map((item) => (
-            <Row className="bg-light mt-5 p-3">
+            <Row key={item.id} className="bg-light mt-5 p-3">
               <Col xs={12} md={6}>
                 <div className="col-md-5 me-4">
                   <Image

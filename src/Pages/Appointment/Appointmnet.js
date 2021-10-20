@@ -33,7 +33,7 @@ const Appointment = () => {
           {data
             ?.filter((item) => bookId == item.id)
             .map((newItem) => (
-              <Form className="container login-from">
+              <Form className="container login-from" key={newItem.id}>
                 <Image className="w-25" src={newItem.photo} alt="" thumbnail/>
                 <Row>
                   <Form.Group className="mb-3">

@@ -7,6 +7,7 @@ import {
 import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 import { faHandshake } from "@fortawesome/free-regular-svg-icons";
 import "./Mission.css";
+import { Link } from "react-router-dom";
 
 const Mission = () => {
   return (
@@ -27,7 +28,9 @@ const Mission = () => {
             To refine and redefine healthcare standards through consistent
             quality enhancement endeavors...
           </p>
-          <button className="readMore-btn">Read More</button>
+          <Link to="/services">
+            <button className="readMore-btn">Read More</button>
+          </Link>
         </Col>
         <Col xs={12} md={4}>
           <span>
@@ -43,7 +46,9 @@ const Mission = () => {
             To achieve global preference in healthcare through our distinctive
             services based on excellence..
           </p>
-          <button className="readMore-btn">Read More</button>
+          <Link to="/services">
+            <button className="readMore-btn">Read More</button>
+          </Link>
         </Col>
         <Col xs={12} md={4}>
           <span>
@@ -59,7 +64,9 @@ const Mission = () => {
             Excellence, Diversity, Integrity, Compassion, Teamwork, Social
             Commitment..
           </p>
-          <button className="readMore-btn">Read More</button>
+          <Link to="/services">
+            <button className="readMore-btn">Read More</button>
+          </Link>
         </Col>
       </Row>
     </div>

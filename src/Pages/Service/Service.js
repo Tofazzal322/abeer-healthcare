@@ -3,7 +3,6 @@ import React from 'react';
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useData from "../../hooks/useData";
-// import Doctors from '../Doctors/Doctors';
 import "./Service.css";
 
 const Service = () => {
@@ -15,7 +14,7 @@ const Service = () => {
 
       <Row>
         {data.slice(0, 4)?.map((item) => (
-          <Col className="mt-5" md={4} lg={3} xs={12}>
+          <Col key={item.id} className="mt-5" md={4} lg={3} xs={12}>
             <div className="mb-3">
               <img src={item.icon} alt="" />
             </div>
@@ -24,17 +23,14 @@ const Service = () => {
               <p>{item.description.slice(0, 100)}</p>
             </div>
             <div>
-              <Link>
-                {/* <Link to={`/services/${item.id}`}> */}
-                <Link to="/services">
-                  <Button
-                    cursor="pointer"
-                    className=" readMore-btn  "
-                    // variant="outline-dark"
-                  >
-                    Read More
-                  </Button>
-                </Link>
+              <Link to="/services">
+                <Button
+                  cursor="pointer"
+                  className=" readMore-btn  "
+                  // variant="outline-dark"
+                >
+                  Read More
+                </Button>
               </Link>
             </div>
           </Col>

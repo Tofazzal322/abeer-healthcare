@@ -26,7 +26,7 @@ const ServiceDetails = () => {
       {data
         ?.filter((item) => serviceId == item.id)
         .map((newItem) => (
-          <Row className="bg-light mt-5 mb-5 p-3">
+          <Row key={newItem.id} className="bg-light mt-5 mb-5 p-3">
             <Col xs={12} md={6}>
               <div className="col-md-5 me-4">
                 <Image

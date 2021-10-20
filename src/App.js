@@ -18,6 +18,7 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import DoctorsFullProfile from './Pages/DoctorsFullProfile/DoctorsFullProfile';
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
@@ -39,7 +40,10 @@ function App() {
             <PrivateRoute exact path="/doctors">
               <Doctors></Doctors>
             </PrivateRoute>
-            <PrivateRoute  path="/appointment/:bookId">
+            <PrivateRoute  path="/DoctorsFullProfile/:bookId">
+              <DoctorsFullProfile></DoctorsFullProfile>
+            </PrivateRoute>
+            <PrivateRoute exact path="/appointment/:bookId">
               <Appointment></Appointment>
             </PrivateRoute>
             <Route exact path="/about">
