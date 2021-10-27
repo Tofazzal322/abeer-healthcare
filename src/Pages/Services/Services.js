@@ -9,7 +9,7 @@ import "./Service.css";
 const Services = () => {
   const { data } = useData();
   return (
-    <div className="container mt-2 mb-5">
+    <div id="Services" className="container mt-2 mb-5">
       <div className="bookAppointmentBtn pb-4">
         <h1>Our Services </h1>
         <h3>We offer multi-specialists healthcare services under one roof</h3>
@@ -18,7 +18,7 @@ const Services = () => {
         {data
           ?.filter((item) => "services" === item.categories)
           .map((item) => (
-            <Row key={item.id} className="bg-light mt-5 p-3">
+            <Row  id="Services" key={item.id} className="bg-light mt-5 p-3">
               <Col xs={12} md={6}>
                 <div className="col-md-5 me-4">
                   <Image

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Mission = () => {
   return (
-    <div className="m-5 p-5 bg-light rounded ">
+    <div className="m-5 p-5 bg-light rounded  ">
       <h2 className="mission-header"> Our Mission & Vision</h2>
       <Row>
         <Col xs={12} md={4}>

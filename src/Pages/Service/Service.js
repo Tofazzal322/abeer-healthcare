@@ -8,7 +8,7 @@ import "./Service.css";
 const Service = () => {
   const { data } = useData();
   return (
-    <div className="container mt-5 mb-5">
+    <div  id="Services" className="container mt-5 mb-5">
       <h1 className="mt-5 services-title">SERVICES </h1>
       <p>We offer multi-specialists healthcare services under one roof</p>
 

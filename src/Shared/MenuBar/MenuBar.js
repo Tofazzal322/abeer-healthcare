@@ -2,7 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { HashLink, NavHashLink } from 'react-router-hash-link';
+import { HashLink} from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
 import './MenuBar.css'
 
@@ -26,26 +26,16 @@ const MenuBar = () => {
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
               <Nav.Link as={HashLink} className="nav-items text-light" to="/home#banner" >
-                
                   Home
-               
               </Nav.Link>
-              <Nav.Link>
-                <HashLink className="nav-items text-light" to="/Services">
-                  Services
-                </HashLink>
+              <Nav.Link as={HashLink} className="nav-items text-light" to="/home#Services">  
+                  Services 
               </Nav.Link>
-              <Nav.Link>
-                <HashLink className="nav-items text-light" to="/doctors">
-                  {" "}
-                  Doctors{" "}
-                </HashLink>
+              <Nav.Link as={HashLink} className="nav-items text-light" to="/doctors"> 
+                  Doctors
               </Nav.Link>
-              <Nav.Link>
-                <HashLink className="nav-items text-light" to="/about">
-                  {" "}
-                  About{" "}
-                </HashLink>
+              <Nav.Link as={HashLink} className="nav-items text-light" to="/about">
+                  About
               </Nav.Link>
               {/* <Nav.Link> */}
                 {/* <HashLink className="nav-items" to="/home#doctors"> Doctors </HashLink>

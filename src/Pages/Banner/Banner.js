@@ -6,7 +6,7 @@ import bannerImg3 from "../../Images/Banner/04.jpg"
 
 const Banner = () => {
     return (
-      <Carousel variant="dark" fade>
+      <Carousel id="banner" variant="dark" fade>
         <Carousel.Item>
           <img className="d-block w-100" src={bannerImg1} alt="First slide" />
         </Carousel.Item>
