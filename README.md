@@ -1,11 +1,21 @@
-# Abeer Healthcare
+# Abeer Healthcare , Hospitality Website
+
+#### Project Overview
+1. Users can see all services and can book an appointment for different services, before
+    booking an appointment users should log in, Logged-in users can cancel appointments.
+2. Developed front-end user experience using React.JS, JavaScript, and RESTful APIs.
+3. Implemented the React Router DOM to allow nested RESTful routing, used MongoDB
+    Database for stored data.
+4. Created Mobile Responsive User Experience with CSS Grids.
+5. #### Technology used:
+     HTML5, CSS3, Javascript, React.js, Node.js, React Bootstrap.
 
 ## Live site Link
 This project hosting by firebase [Live site link](https://abeer-healthcare.web.app/).
 
 
-### `Github private repo link`
-[Github Private repo link](https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Tofazzal322)
+### `Github Public repo link`
+[Github Public repo link](https://github.com/Tofazzal322/abeer-healthcare)
 
 
 
