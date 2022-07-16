@@ -12,7 +12,7 @@ const Services = () => {
     <div id="Services" className="container mt-2 mb-5">
       <div className="bookAppointmentBtn pb-4">
         <h1>Our Services </h1>
-        <h3> We offer multi-specialists healthcare services under one roof</h3>
+        <h3>We offer multi-specialists healthcare services under one roof</h3>
       </div>
       <div className="mt-5 mb-5 ">
         {data

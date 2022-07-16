@@ -15,7 +15,7 @@ const DoctorsFullProfile = () => {
     fetch("/data.json")
       .then((res) => res.json())
       .then((data) => setData(data));
-  }, []);
+  }, [set]);
 
     return (
       <div>

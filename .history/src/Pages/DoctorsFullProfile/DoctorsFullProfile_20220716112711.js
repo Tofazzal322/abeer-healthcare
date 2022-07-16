@@ -21,7 +21,7 @@ const DoctorsFullProfile = () => {
       <div>
         <h1 className="doctor-full-header">DOCTORS FULL PROFILE</h1>
         {data
-          .filter((newData) => bookId == newData.id)
+          .filter((newData) => bookId === newData.id)
           .map((doctor) => (
             <Row key={doctor.id}>
               <Col className="mb-5 mt-5">
